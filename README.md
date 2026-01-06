@@ -1,6 +1,6 @@
 Challenge Bulltrack para filtrar y ordenar por ranking de toros con Next.js
 
-## Getting Started
+## Pasos
 
 Para levantar en  modo desarrollo:
 
@@ -10,6 +10,6 @@ npm run dev
 yarn dev
 ```
 
-Abrir [http://localhost:3000](http://localhost:3000) en el buscador
+Abrir [http://localhost:3000](http://localhost:3000) en el navegador
 
 Disfruta 🙂
