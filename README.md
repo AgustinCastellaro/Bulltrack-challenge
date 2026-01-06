@@ -1,4 +1,4 @@
-Challenge Bulltrack para filtrar y ordenar por ranking de toros con Next.js
+# Challenge Bulltrack para filtrar y ordenar por ranking de toros con Next.js
 
 ## Pasos
 
