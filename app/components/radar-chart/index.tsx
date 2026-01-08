@@ -74,7 +74,7 @@ export default function RadarChart({ data, className = '' }: RadarChartProps) {
             }
         },
         scales: {
-            r: {
+            r: { // Escala radial
                 grid: {
                     color: '#e5e7eb',
                 },
@@ -82,14 +82,12 @@ export default function RadarChart({ data, className = '' }: RadarChartProps) {
                     display: false,
                     stepSize: 20
                 },
-                suggestedMin: 0,
-                suggestedMax: 10,
+                suggestedMin: 0, // Valor minimo sugerido
+                suggestedMax: 100, // Valor maximo sugerido
+                beginAtZero: true // Obliga al grafico a comenzar en 0
             },
         },
-        elements: {
-            line: {
-                borderWidth: 3,
-            },
+        elements: { // Estilos para los puntos y lineas del grafico
             point: {
                 radius: 4,
                 hoverRadius: 6,
