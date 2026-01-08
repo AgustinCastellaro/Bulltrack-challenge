@@ -1,5 +1,5 @@
 import { DataItem } from "../../../types/data";
-import { ListItem } from "./components";
+import ListItem from "./components/ListItem";
 
 export default function ListView({ data }: { data: DataItem[] }) {
     return (

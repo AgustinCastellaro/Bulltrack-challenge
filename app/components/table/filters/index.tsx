@@ -1,4 +1,3 @@
-import { DataItem } from "../../../types/data";
 import { ButtonGroup } from "../../button-group";
 import { buttonGroupOptions } from "../../../constants/inputs";
 import SearchBar from "../../searchBar";
